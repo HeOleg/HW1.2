@@ -22,7 +22,7 @@ public class Main {
         System.out.println(differenceWeight);
 
         //Задание 3
-        short bananas=5;
+        int bananas=5;
         short weightOneBananas=80;
         int weightAllBananas=weightOneBananas*bananas;
         short milk=200;
@@ -30,10 +30,10 @@ public class Main {
         int iceCream=2;
         int weightOneIceCream=100;
         int weightIceCream=iceCream*weightOneIceCream;
-        int eggs=4;
-        int weightOneEgg=70;
-        int weightAllEggs=eggs*weightOneEgg;
-        int weightCoctaile=weightAllBananas+weightAllMilk+weightIceCream+weightAllEggs;
+        double eggs=4.000;
+        double weightOneEgg=70;
+        double weightAllEggs=eggs*weightOneEgg;
+        double weightCoctaile=weightAllBananas+weightAllMilk+weightIceCream+weightAllEggs;
         double weigthtCoctaileInKg=weightCoctaile/1000;
         System.out.println(weigthtCoctaileInKg);
 
